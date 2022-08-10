@@ -1,0 +1,17 @@
+.heading1 {
+    font-size: 5vh;
+    font-style: italic;
+    color: brown;
+}
+
+.heading2 {
+    font-size: 4vh;
+    font-style: oblique;
+    color: aqua;
+}
+
+.heading3 {
+    font-size: 3vh;
+    font-style: normal;
+    color: aquamarine;
+}
