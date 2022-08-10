@@ -13,5 +13,41 @@
 .heading3 {
     font-size: 3vh;
     font-style: normal;
-    color: aquamarine;
+    color: cadetblue;
+}
+
+.name {
+    width: 50vw;
+    box-shadow: 7px 5px 3px;
+    border-radius: 2vh;
+    text-align: justify;
+    background-color: bisque;
+    font-size: 4vh;
+    font-family: cursive;
+    border: 2px solid;
+}
+
+.normal-text {
+    width: fit-content;
+    font-family: cursive;
+    font-size: 3vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.red-box {
+    height: 5vh;
+    width: 5vw;
+    background-color: cornsilk;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
