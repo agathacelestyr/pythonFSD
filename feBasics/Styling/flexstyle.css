@@ -1,0 +1,47 @@
+.s1-row{
+    display: flex;
+    flex-direction: row;
+}
+.horizontal-align{
+    display: flex;
+    flex-direction: row;
+    flex-flow: row;
+    justify-content: space-around;
+}
+
+.s1-e1{
+    height: 5vh;
+    background-color: #0050c9;
+    flex-grow: 1;
+}
+
+.s1-e2{
+    height: 5vh;
+    background-color: aqua;
+    flex-grow: 2;
+}
+
+.s2-e1{
+    height: 5vh;
+    width: 40vw;
+    background-color: blueviolet;
+    margin: 0 auto 0 auto;
+}
+
+.s3-e1{
+    height: 5vh;
+    background-color: aquamarine;
+    flex-grow: 1;
+}
+
+.s3-e2{
+    height: 5vh;
+    background-color: red;
+    flex-grow: 1;
+}
+
+.s3-e3{
+    height: 5vh;
+    background-color:magenta;
+    flex-grow: 1;
+}

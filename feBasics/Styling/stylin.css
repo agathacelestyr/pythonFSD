@@ -1,0 +1,61 @@
+.simple-button {
+    min-height: 4vh;
+    width: fit-content;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: blue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1vh 2vw 1vh 2vw;
+    color: white;
+    font-size: 2vh;
+    border-radius: 4vh;
+    cursor: pointer;
+    margin: 1vh;
+    box-shadow: 5px 5px 10px;
+}
+
+.align-center{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-layout{
+    min-height: 4vh;
+    width: fit-content;
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #106fff;
+    padding: 1vh 2vw 1vh 2vw;
+    color: white;
+    border: 2px solid #106fff;
+    font-size: 2vh;
+    border-radius: 4vh;
+    cursor: pointer;
+    margin: 1vh;
+    outline: 0;
+    font-weight: 600;
+}
+
+
+.button-layout:hover{
+    background-color: #0c62e5;
+    box-shadow: 0px 0px 10px;
+}
+
+.button-layout:active{
+    background-color: #0050c9;
+}
+
+.button-layout:focus{
+    background-color: #106fff;
+    border: 3px double white;
+}
+
+.horizontal-align{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
