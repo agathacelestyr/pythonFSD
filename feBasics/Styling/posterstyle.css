@@ -1,0 +1,49 @@
+.poster-card {
+  height: 70vh;
+  width: 20vw;
+  margin: 2vh;
+  box-shadow: 0 0 10px #00000055;
+  display: grid;
+  grid-template-columns: 1fr 1.2fr 1.8fr 1.8fr 1.8fr;
+  grid-template-rows: 1fr 2fr 1fr;
+  background-color: #eceae8;
+  border-radius: 2vh;
+}
+
+.icon {
+  height: 5vh;
+  width: 5vh;
+  margin: auto;
+}
+
+.align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-layout {
+  min-height: 4vh;
+  width: fit-content;
+  font-family: "Ubuntu", sans-serif;
+  background-color: #106fff;
+  padding: 1vh 2vw 1vh 2vw;
+  color: white;
+  border: 2px solid #106fff;
+  font-size: 2vh;
+  border-radius: 4vh;
+  cursor: pointer;
+  margin: 1vh;
+  outline: 0;
+  font-weight: 600;
+}
+
+.sec-3 {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: space-around;
+  grid-row: 3 / span 1;
+  grid-column: 3 / span 2;
+}
