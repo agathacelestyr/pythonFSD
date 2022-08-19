@@ -1,0 +1,39 @@
+.icon-1{
+    height: 3vh;
+    width: 3vh;
+}
+
+.web-header{
+    display: flex;
+    flex-direction:initial;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.search-bar{
+    height: 7vh;
+    width: 40vw;
+    background-color: whitesmoke;
+    border-radius: 2vh;
+    align-self: auto;
+}
+
+.horizontal-align{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+}
+
+.list{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content:space-evenly;
+
+}
+
+.vertical-align{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

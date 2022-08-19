@@ -1,0 +1,68 @@
+.card-border{
+  height: 70vh;
+  width: 30vw;
+  border: 0.2vh solid grey;
+  border-radius: 1vh;
+  margin: auto;
+}
+
+.border-1{
+  height: 55vh;
+  width: 18vw;
+  background-color: rgb(245, 242, 242);
+  border-radius: 2vh;
+  margin: auto;
+  margin-top: 5%;
+  display: grid;
+  grid-template-columns: 30% 40% 30%;
+  grid-template-rows: 10% 60% 10% 20%;
+}
+
+.border-2{
+  height: 7vh;
+  width: 3.5vw;
+  background-color: rgb(35, 66, 128);
+  border-radius: 2vh;
+  grid-column: 3 / span 1;
+  grid-row: 4 / span 1;
+  margin: 2.5vh 10vh 0 0;
+}
+
+.icon-1{
+  height: 40vh;
+  width: 18vw;
+  border-radius: 2vh;
+  grid-column: 1 / span 3;
+  grid-row: 1 / span 2;
+}
+
+.icon-2{
+  height: 3vh;
+  width: 3vh;
+  grid-column: 3 / span 1;
+  grid-row: 1 / span 1;
+  margin: auto;
+}
+
+.icon-3{
+  height: 5vh;
+  width: 5vh;
+  margin: 1vh 1vh 1vh 1vh;
+  
+}
+
+.font-1{
+  font-size: 2.6vh;
+  grid-column: 1 / span 3;
+  grid-row: 3 / span 1;
+  margin: 3vh 0 0 1vh;
+  color: rgb(83, 82, 82);
+}
+
+.font-2{
+  font-size: 2.8vh;
+  grid-column: 1 / span 1;
+  grid-row: 4 / span 1;
+  margin: 3vh 0 0 2.8vh;
+  color: rgb(83, 82, 82);
+}
